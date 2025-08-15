@@ -25,7 +25,7 @@ echo detecting required modules
   --multi-release %JAVA_VERSION% ^
   --ignore-missing-deps ^
   --class-path "build\installer\input\libs\*" ^
-  --print-module-deps build\classes\java\main\eu\hansolo\fx\timebuddyfx\TimeBuddyFX.class > temp.txt
+  --print-module-deps build\classes\java\main\eu\hansolo\fx\timebuddy\TimeBuddyFX.class > temp.txt
 
 set /p detected_modules=<temp.txt
 
